@@ -20,11 +20,9 @@
 # numpy library helps in working with arrays: array creation and manipulation
 # this implementation uses array for storing the matrices generated as 2-D arrays
 # PyPDF2 is a library used for reading the PDF files
-# docx2txt is the library used for reading Word documents 
 # sys library has been used for printing the size of data structures used in the program
 import numpy as np
 import PyPDF2
-import docx2txt
 import sys
 
 
