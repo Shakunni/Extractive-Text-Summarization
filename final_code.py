@@ -279,7 +279,7 @@ nx_graph = nx.from_scipy_sparse_matrix(res_graph)
 nx.draw_circular(nx_graph)
 print('Number of edges {}'.format(nx_graph.number_of_edges()))
 print('Number of vertices {}'.format(nx_graph.number_of_nodes()))
-plt.show()
+# plt.show()
 print('The memory used by the graph in Bytes is: {}'.format(sys.getsizeof(nx_graph)))
 
 
